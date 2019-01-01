@@ -1,0 +1,33 @@
+.module {
+    display: block;
+    height: 200px;
+    width: 200px;
+    float: left;
+    position: relative;
+    border: 1px solid #333;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+background-color: #6d695c;
+background-image: url("/img/argyle.png");
+background-image:
+repeating-linear-gradient(-30deg,
+rgba(255,255,255,.1), rgba(255,255,255,.1) 1px,
+transparent 1px, transparent 60px),
+repeating-linear-gradient(30deg,
+rgba(255,255,255,.1), rgba(255,255,255,.1) 1px,
+transparent 1px, transparent 60px),
+linear-gradient(30deg, rgba(0,0,0,.1) 25%,
+transparent 25%, transparent 75%, rgba(0,0,0,.1)
+75%, rgba(0,0,0,.1)),
+linear-gradient(-30deg, rgba(0,0,0,.1) 25%,
+transparent 25%, transparent 75%, rgba(0,0,0,.1)
+75%, rgba(0,0,0,.1));
+background-size: 70px 120px;

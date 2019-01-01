@@ -1,0 +1,39 @@
+#sidebar div {
+    border: 1px solid #333;
+}
+#sidebar div h3 {
+    margin-top: 5px;
+}
+#sidebar div ul {
+    margin-bottom: 5px;
+}
+
+#sidebar div, #footer div {
+    border: 1px solid #333;
+}
+#sidebar div h3, #footer div h3 {
+    margin-top: 5px;
+}
+#sidebar div ul, #footer div ul {
+    margin-bottom: 5px;
+}
+
+.pod {
+    border: 1px solid #333;
+}
+.pod > h3 {
+    margin-top: 5px;
+}
+.pod > ul {
+    margin-bottom: 5px;
+}
+
+.pod > ul, .pod > ol, .pod > div {
+    margin-bottom: 5px;
+}
+
+.pod-body {
+    margin-bottom: 5px;
+}
+    
+    

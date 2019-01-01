@@ -1,0 +1,119 @@
+/* CSS for styling */
+.is-active .btn { color: #000; }
+.is-active .menu { display: block; }
+
+.btn { color: #333; }
+.btn-pressed { color: #000; }
+.btn-disabled { opacity: .5; pointer-events: none; }
+
+.btn { color: #333; }
+.is-pressed { color: #000; }
+.is-disabled { opacity: .5; pointer-events: none; }
+
+.btn[data-state=default] { color: #333; }
+.btn[data-state=pressed] { color: #000; }
+.btn[data-state=disabled] { opacity: .5;
+pointer-events: none; }
+
+@keyframes fade {
+    0% { opacity:0; display:block; }
+    100% { opacity:1; display:block; }
+}
+.is-visible {
+    display: block;
+    animation: fade 2s;
+}
+.is-hidden {
+    display: none;
+    animation: fade 2s reverse;
+}
+
+@-webkit-keyframes fade {
+    0% { opacity:0; }
+    100% { opacity:1; display:block; }
+}
+.is-visible {
+    opacity: 1;
+    animation: fade 2s;
+}
+.is-hidden {
+    opacity: 0;
+    animation: fade 2s reverse;
+}
+.is-removed {
+    display: none;
+}
+
+.btn {
+    background-color: #333; /* gray */
+}
+.btn:hover {
+    background-color: #336; /* blueish */
+}
+.btn:focus {
+    /* blueish focus ring */
+    box-shadow: 0 0 3px rgba(48,48,96,.3);
+}
+
+
+.btn {
+    background-color: #333; /* gray */
+}
+.btn:hover {
+    background-color: #336; /* blueish */
+}
+.btn:focus {
+    /* blueish focus ring */
+    box-shadow: 0 0 3px rgba(48,48,96,.3);
+}
+    /* a default button state is the default choice
+    * from a selection of buttons
+    */
+.btn-default {
+    background-color: #DEDB12; /* yellowish */
+}
+.btn-default:hover {
+    background-color: #B8B50B; /* darker yellow */
+}
+/* no need to define a different focus state */
+
+.btn { ... }
+.btn:hover { ... }
+.btn:focus { ... }
+.btn-default { ... }
+.btn-default:hover { ... }
+.btn.is-pressed { ... }
+.btn.is-pressed:hover { ... }
+.btn-default.is-pressed { ... }
+.btn-default.is-pressed:hover { ... }
+
+/* inside main.css */
+@media screen and (max-width: 400px) {
+    #content { float: none; }
+}
+
+/* default state for nav items */
+.nav > li {
+    float: left;
+}
+/* alternate state for nav items on small screens */
+@media screen and (max-width: 400px) {
+    .nav > li { float: none; }
+}
+/* default layout */
+.content {
+    float: left;
+    width: 75%;
+}
+.sidebar {
+    float: right;
+    width: 25%;
+}
+/* alternate state for layout on small screens */
+ @media screen and (max-width: 400px) {
+    .content, .sidebar {
+        float: none;
+        width: auto;
+    }
+}
+    

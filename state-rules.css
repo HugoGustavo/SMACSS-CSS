@@ -1,0 +1,19 @@
+<div id="header" class="is-collapsed">
+    <form>
+        <div class="msg is-error">
+            There is an error!
+        </div>
+        <label for="searchbox" class="is-hidden">Search</label>
+        <input type="search" id="searchbox">
+    </form>
+</div>
+
+.tab {
+    background-color: purple;
+    color: white;
+}
+.is-tab-active {
+    background-color: white;
+    color: black;
+}
+    

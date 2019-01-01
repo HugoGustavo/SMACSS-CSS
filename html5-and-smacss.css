@@ -1,0 +1,30 @@
+nav.nav-primary li {
+    display: inline-block;
+}
+
+nav.nav-secondary li {
+    display: block;
+}
+
+
+nav.nav-primary li {
+    display: inline-block;
+}
+nav.nav-secondary li,
+nav.nav-primary li li {
+    display: block;
+}
+
+.l-inline li {
+    display: inline-block;
+}
+.l-stacked li {
+    display: block;
+}
+
+.l-inline > * {
+    display: inline-block;
+}
+.l-stacked > * {
+    display: block;
+}

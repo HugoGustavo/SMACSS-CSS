@@ -1,0 +1,15 @@
+html, body, form { margin: 0; padding: 0; }
+input[type=text] { border: 1px solid #999; }
+a { color: #039; }
+a:hover { color: #03C; }
+
+/* Example Module */
+.example { }
+/* Callout Module */
+.callout { }
+/* Callout Module with State */
+.callout.is-collapsed { }
+/* Form field module */
+.field { }
+/* Inline layout */
+.l-inline { }

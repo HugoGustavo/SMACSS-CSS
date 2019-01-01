@@ -1,0 +1,84 @@
+.module > h2 {
+    padding: 5px;
+}
+
+.module span {
+    padding: 5px;
+}
+
+<div class="fld">
+    <span>Folder Name</span>
+</div>
+/* The Folder Module */
+.fld > span {
+    padding-left: 20px;
+    background: url(icon.png);
+}
+
+<div class="fld">
+    <span>Folder Name</span>
+    <span>(32 items)</span>
+</div>
+
+
+<div class="fld">
+    <span class="fld-name">Folder Name</span>
+    <span class="fld-items">(32 items)</span>
+</div>
+
+.pod {
+    width: 100%;
+}
+
+.pod input[type=text] {
+    width: 50%;
+}
+
+#sidebar .pod input[type=text] {
+    width: 100%;
+}
+
+.pod {
+    width: 100%;
+}
+.pod input[type=text] {
+    width: 50%;
+}
+#sidebar .pod input[type=text] {
+    width: 100%;
+}
+.pod-callout {
+    width: 200px;
+}
+#sidebar .pod-callout input[type=text],
+.pod-callout input[type=text] {
+    width: 180px;
+}
+
+.pod {
+    width: 100%;
+}
+.pod input[type=text] {
+    width: 50%;
+}
+.pod-constrained input[type=text] {
+    width: 100%;
+}
+.pod-callout {
+    width: 200px;
+}
+.pod-callout input[type=text] {
+    width: 180px;
+}
+
+
+<div class="pod pod-constrained">...</div>
+<div class="pod pod-callout">...</div>
+
+
+.pod.pod-callout { }
+<!-- In the HTML -->
+<div class="pod pod-callout"> ... </div>
+
+    
+    
